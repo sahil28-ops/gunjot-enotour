@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold mb-3">YourCompany</h2>
+          <h2 className="text-2xl font-bold mb-3">Gunjot Entour Pvt Ltd</h2>
           <p className="opacity-80 text-sm">
             Delivering top-notch travel experiences with innovative solutions.
             Your journey, our commitment.
@@ -82,16 +82,17 @@ const Footer = () => {
           <div className="flex items-center space-x-3 mb-2">
             <MapPin size={20} className="text-yellow-400" />
             <span className="opacity-80 text-sm">
-              123 Business Street, Shimla, HP, India
+            GUNJOT ENTOUR PVT. LTD.
+            Office M-2, Plot no. D-229, PHASE 8B, MOHALI
             </span>
           </div>
           <div className="flex items-center space-x-3 mb-2">
             <PhoneCall size={20} className="text-yellow-400" />
-            <span className="opacity-80 text-sm">+91 98765 43210</span>
+            <span className="opacity-80 text-sm">+91 9877445707</span>
           </div>
           <div className="flex items-center space-x-3">
             <Mail size={20} className="text-yellow-400" />
-            <span className="opacity-80 text-sm">info@yourcompany.com</span>
+            <span className="opacity-80 text-sm">gunjotentour@gmail.com</span>
           </div>
         </div>
       </div>
@@ -100,21 +101,21 @@ const Footer = () => {
       <div className="text-center mt-10 border-t border-gray-700 pt-5">
         <div className="flex justify-center space-x-6 mb-4">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/1A8qsvj3Dg/"
             target="_blank"
             className="hover:text-yellow-400 transition"
           >
             <Facebook size={24} />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/gunjotentourpvt?utm_source=qr&igsh=MWQ5ODBmdGtzaGU3dg=="
             target="_blank"
             className="hover:text-yellow-400 transition"
           >
             <Instagram size={24} />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/gunjot-entour-14190235a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             className="hover:text-yellow-400 transition"
           >

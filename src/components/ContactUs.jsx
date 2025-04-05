@@ -71,12 +71,12 @@ const ContactUs = () => {
               {
                 icon: <PhoneCall className="text-yellow-400" size={28} />,
                 title: "HR Contact",
-                desc: "+91 98765 43210"
+                desc: "+91 9877445707"
               },
               {
                 icon: <Briefcase className="text-yellow-400" size={28} />,
                 title: "Business Email",
-                desc: "business@example.com"
+                desc: "gunjotentour@gmail.com"
               },
             ].map((item, index) => (
               <motion.div
@@ -133,19 +133,19 @@ const ContactUs = () => {
             <p className="text-lg mb-6">Choose how you’d like to reach us:</p>
             <div className="flex flex-col space-y-4">
               <a
-                href="tel:+1234567890"
+                href="tel:+91 9877445707"
                 className="bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center"
               >
                 <PhoneCall className="mr-2" /> Call Us
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/+91 9877445707"
                 className="bg-green-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition duration-300 flex items-center justify-center"
               >
                 <MessageCircle className="mr-2" /> WhatsApp Us
               </a>
               <a
-                href="mailto:info@example.com"
+                href="mailto:gunjotentour@gmail.com"
                 className="bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-800 transition duration-300 flex items-center justify-center"
               >
                 <Mail className="mr-2" /> Email Us
